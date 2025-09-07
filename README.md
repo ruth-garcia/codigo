@@ -1,4 +1,4 @@
-# Herramiente para la planificación de la producción
+# Herramienta para la planificación de la producción (TFG)
 Este repositorio contiene el modelo base del programa destinado a generar planes semanales de producción, así como las diferentes instancias analizadas y las funciones de demostración.
 
 **El repositorio cuenta con 4 carpetas:**
