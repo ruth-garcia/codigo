@@ -160,16 +160,3 @@ def dataframe(instance, tol=1e-6):
     print(df_cronologia.head(20).to_string(index=False))
 
     return df_posiciones, df_cronologia
-\end{lstlisting}
-
-\subsubsection{Programa principal}
-
-\begin{lstlisting}
-if __name__ == "__main__":
-    instance = create_test_instance()
-    solve_instance(instance)
-    
-    df_pos, df_crono = dataframe(instance)
-    print("\nFichero guardado: 'solucion_CEE.xlsx'")
-    
-    print("done")
